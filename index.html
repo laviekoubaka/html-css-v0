@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pokemon Card with Shadow</title>
+
+		<style>
+			.card {
+				border: 1px solid rgb(196, 182, 182);
+				border-radius: 8px;
+				width: 480px;
+				height: 260px;
+				padding: 16px;
+				margin: auto;
+				margin-top: 160px;
+				box-shadow: 3px 5px 4px rgb(238, 231, 231);
+				font-family: "Times New Roman", Times, serif;
+			}
+			p {
+				font-size: 1rem;
+				font-weight: 500;
+			}
+
+			div.img {
+				float: left;
+			}
+			.content {
+				float: right;
+				margin-top: 16px;
+				padding: 5px;
+			}
+
+			.card:hover {
+				box-shadow: 5px 8px 4px rgb(238, 231, 231);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="img">
+				<img src="Pikachu.png" alt="little pikach image" />
+			</div>
+
+			<div class="content">
+				<h2>Pikachu</h2>
+				<p>Species: Mouses Pokémon</p>
+				<p>Fighting style: Electic type</p>
+				<p>Origin: Kanto</p>
+			</div>
+		</div>
+	</body>
+</html>
